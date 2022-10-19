@@ -1,3 +1,13 @@
 .hidden {
   display: none;
 }
+
+.maintxt {
+  position: relative;
+}
+.maintxt > img, .overlay-text {
+  position: absolute;
+}
+.overlay-text {padding: 100px;
+float: left;
+}
